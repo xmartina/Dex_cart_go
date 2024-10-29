@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# Ensure that you're pointing to the correct host
+RewriteCond %{HTTP_HOST} ^(www.)?dexcartgo.online$
+RewriteCond %{REQUEST_URI} !^/public/  # Ignore requests to /public/
+RewriteCond %{REQUEST_FILENAME} !-f    # Ignore existing files
+RewriteCond %{REQUEST_FILENAME} !-d    # Ignore existing directories
+RewriteRule ^(.*)$ /public/$1 [L]      # Rewrite other URLs to /public/
+
+# Handle requests to the root directory
+RewriteCond %{HTTP_HOST} ^(www.)?dexcartgo.online$
+RewriteRule ^(/)?$ public/index.php [L]  # Serve the index.php from /public/
+
+
+
+#Security Settings. Don't change this
+options -Indexes
+<Files .env>
+	Order allow,deny
+	Deny from all
+</Files>

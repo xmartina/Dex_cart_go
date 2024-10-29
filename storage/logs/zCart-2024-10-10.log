@@ -1,0 +1,766 @@
+[2024-10-10 18:49:45] production.INFO: Evironemnt key ZCART_API_KEY has been updated to "AJi5dpDXYuP8EiyqRqbbxvqcoKgQvFTN"  
+[2024-10-10 18:49:45] production.INFO: Evironemnt key ZCART_ENCRYPTION_KEY has been updated to "cWpF5uM0rtdAx5oC9Oq6rrW40nTfAWNK"  
+[2024-10-10 18:49:45] production.INFO: Evironemnt key ZCART_ENCRYPTION_IV has been updated to "lcn6Tx6o7uV6qt40"  
+[2024-10-10 19:55:03] production.INFO: ............................. Message Sending .....................................  
+[2024-10-10 19:55:03] production.INFO: array (
+  'subject' => 'zCart - marketplace information updated successfully!',
+)  
+[2024-10-10 19:55:03] production.DEBUG: Message-ID: <81d9cb5a97a3d65ecaf1394bdb0d5532@dexcartgo.online>
+Date: Thu, 10 Oct 2024 19:55:03 +0100
+Subject: zCart - marketplace information updated successfully!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: superadmin@demo.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1728586503_09d8171dc94fa8af571bb5275dcb6b28_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="zCart" title="zCart" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello SuperAdmin!</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">This is a notification to let you know that your marketplace zCart has been updated successfully!
+<br></p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/admin/setting/system/config" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">Go to the Dashboard</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+zCart</p>
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 zCart. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello SuperAdmin!
+
+This is a notification to let you know that your marketplace zCart has been updated successfully!
+
+Go to the Dashboard: https://dexcartgo.online/admin/setting/system/config
+
+Thanks,
+zCart
+
+© 2024 zCart. All rights reserved.
+  
+[2024-10-10 19:55:03] production.INFO: ........................... Message Sent Successfully .................................  
+[2024-10-10 19:56:00] production.INFO: ............................. Message Sending .....................................  
+[2024-10-10 19:56:00] production.INFO: array (
+  'subject' => 'Account information updated successfully!',
+)  
+[2024-10-10 19:56:00] production.DEBUG: Message-ID: <c95904375f6ba5936960c85949a2b6b5@dexcartgo.online>
+Date: Thu, 10 Oct 2024 19:56:00 +0100
+Subject: Account information updated successfully!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: info@dexcartgo.online
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1728586560_77409164b05f46b74db1f2e732744980_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="Dexcartgo" title="Dexcartgo" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello SuperAdmin!</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">This is a notification to let you know that your account has been updated successfully!
+<br></p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/admin/account/profile" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">Visit your profile</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+Dexcartgo</p>
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 Dexcartgo. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello SuperAdmin!
+
+This is a notification to let you know that your account has been updated successfully!
+
+Visit your profile: https://dexcartgo.online/admin/account/profile
+
+Thanks,
+Dexcartgo
+
+© 2024 Dexcartgo. All rights reserved.
+  
+[2024-10-10 19:56:00] production.INFO: ........................... Message Sent Successfully .................................  
+[2024-10-10 19:56:36] production.INFO: ............................. Message Sending .....................................  
+[2024-10-10 19:56:36] production.INFO: array (
+  'subject' => 'Your Dexcartgo password has been updated successfully!',
+)  
+[2024-10-10 19:56:36] production.DEBUG: Message-ID: <e7d498a4467253a54f5c26ce55b67931@dexcartgo.online>
+Date: Thu, 10 Oct 2024 19:56:36 +0100
+Subject: Your Dexcartgo password has been updated successfully!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: info@dexcartgo.online
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1728586596_93b54d2338d530a9ecb8420b8f0ce052_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="Dexcartgo" title="Dexcartgo" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello SuperAdmin!</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Your account login password has been changed successfully! If you did not make this change, please contact us asap! Click the button below to login into your profile page.
+<br></p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/admin/account/profile" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">Visit Your Profile</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+Dexcartgo</p>
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 Dexcartgo. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello SuperAdmin!
+
+Your account login password has been changed successfully! If you did not make this change, please contact us asap! Click the button below to login into your profile page.
+
+Visit Your Profile: https://dexcartgo.online/admin/account/profile
+
+Thanks,
+Dexcartgo
+
+© 2024 Dexcartgo. All rights reserved.
+  
+[2024-10-10 19:56:36] production.INFO: ........................... Message Sent Successfully .................................  
+[2024-10-10 20:13:07] production.INFO: ............................. Message Sending .....................................  
+[2024-10-10 20:13:07] production.INFO: array (
+  'subject' => 'Dexcartgo - marketplace information updated successfully!',
+)  
+[2024-10-10 20:13:07] production.DEBUG: Message-ID: <30a810d5285618bb15ef8955bf0ffc0d@dexcartgo.online>
+Date: Thu, 10 Oct 2024 20:13:07 +0100
+Subject: Dexcartgo - marketplace information updated successfully!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: info@dexcartgo.online
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1728587587_1b651566093721fa32b756016c3f53a5_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="Dexcartgo" title="Dexcartgo" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello SuperAdmin!</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">This is a notification to let you know that your marketplace Dexcartgo has been updated successfully!
+<br></p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/admin/setting/system/config" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">Go to the Dashboard</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+Dexcartgo</p>
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 Dexcartgo. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello SuperAdmin!
+
+This is a notification to let you know that your marketplace Dexcartgo has been updated successfully!
+
+Go to the Dashboard: https://dexcartgo.online/admin/setting/system/config
+
+Thanks,
+Dexcartgo
+
+© 2024 Dexcartgo. All rights reserved.
+  
+[2024-10-10 20:13:07] production.INFO: ........................... Message Sent Successfully .................................  
+[2024-10-10 23:11:35] production.INFO: ............................. Message Sending .....................................  
+[2024-10-10 23:11:35] production.INFO: array (
+  'subject' => 'Dexcartgo - marketplace configuration updated successfully!',
+)  
+[2024-10-10 23:11:35] production.DEBUG: Message-ID: <805defc4997761bc5823add3c3b8750f@dexcartgo.online>
+Date: Thu, 10 Oct 2024 23:11:35 +0100
+Subject: Dexcartgo - marketplace configuration updated successfully!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: info@dexcartgo.online
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1728598295_ae84d7fa618223a7e0d95708216aa9cd_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="Dexcartgo" title="Dexcartgo" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello SuperAdmin!</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">The configuration of your marketplace Dexcartgo has been updated successfully! Click the button below to login into the admin panel.
+<br></p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/admin/setting/system/config" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">View settings</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+Dexcartgo</p>
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 Dexcartgo. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello SuperAdmin!
+
+The configuration of your marketplace Dexcartgo has been updated successfully! Click the button below to login into the admin panel.
+
+View settings: https://dexcartgo.online/admin/setting/system/config
+
+Thanks,
+Dexcartgo
+
+© 2024 Dexcartgo. All rights reserved.
+  
+[2024-10-10 23:11:35] production.INFO: ........................... Message Sent Successfully .................................  
+[2024-10-10 23:11:36] production.INFO: ............................. Message Sending .....................................  
+[2024-10-10 23:11:36] production.INFO: array (
+  'subject' => 'Dexcartgo - marketplace configuration updated successfully!',
+)  
+[2024-10-10 23:11:36] production.DEBUG: Message-ID: <59fa72628e7e6f35d52d5a8596154ad0@dexcartgo.online>
+Date: Thu, 10 Oct 2024 23:11:36 +0100
+Subject: Dexcartgo - marketplace configuration updated successfully!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: info@dexcartgo.online
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1728598296_d03291b325148e67f710c0af7d96e359_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="Dexcartgo" title="Dexcartgo" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello SuperAdmin!</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">The configuration of your marketplace Dexcartgo has been updated successfully! Click the button below to login into the admin panel.
+<br></p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/admin/setting/system/config" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">View settings</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thanks,<br>
+Dexcartgo</p>
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 Dexcartgo. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello SuperAdmin!
+
+The configuration of your marketplace Dexcartgo has been updated successfully! Click the button below to login into the admin panel.
+
+View settings: https://dexcartgo.online/admin/setting/system/config
+
+Thanks,
+Dexcartgo
+
+© 2024 Dexcartgo. All rights reserved.
+  
+[2024-10-10 23:11:36] production.INFO: ........................... Message Sent Successfully .................................  

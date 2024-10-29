@@ -1,0 +1,847 @@
+[2024-10-28 09:50:39] production.ERROR: Error: Payment Method bitcoin Not Found. {"exception":"[object] (ErrorException(code: 0): Error: Payment Method bitcoin Not Found. at /home/multistream6/domains/dexcartgo.online/public_html/app/Providers/AppServiceProvider.php:177)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/app/Providers/AppServiceProvider.php(83): App\\Providers\\AppServiceProvider->resolvePaymentDependency()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(682): App\\Providers\\AppServiceProvider->register()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(659): Illuminate\\Foundation\\ProviderRepository->load()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#10 {main}
+"} 
+[2024-10-28 09:50:39] production.ERROR: Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) {"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): App\\Exceptions\\Handler->render()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\\Foundation\\Http\\Kernel->renderException()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#16 {main}
+
+[previous exception] [object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [translator] does not exist. at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): App\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\\Foundation\\Http\\Kernel->renderException()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#26 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"translator\" does not exist at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): App\\Exceptions\\Handler->render()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\\Foundation\\Http\\Kernel->renderException()
+#26 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#27 {main}
+"} 
+[2024-10-28 09:50:39] production.ERROR: Uncaught ReflectionException: Class "translator" does not exist in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\Foundation\Exceptions\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\Exceptions\Handler->render()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#26 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#27 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\Foundation\Exceptions\Handler->render()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\Exceptions\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#26 {main}
+
+Next Illuminate\View\ViewException: Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\Foundation\Exceptions\Handler->render()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\Exceptions\Handler->render()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"translator\" does not exist in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\\Exceptions\\Handler->render()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#26 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#27 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [translator] does not exist. in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#25 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#26 {main}
+
+Next Illuminate\\View\\ViewException: Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\\Exceptions\\Handler->render()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#15 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#16 {main}
+  thrown at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879)
+[stacktrace]
+#0 {main}
+"} 
+[2024-10-28 09:50:51] production.ERROR: Error: Payment Method bitcoin Not Found. {"exception":"[object] (ErrorException(code: 0): Error: Payment Method bitcoin Not Found. at /home/multistream6/domains/dexcartgo.online/public_html/app/Providers/AppServiceProvider.php:177)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/app/Providers/AppServiceProvider.php(83): App\\Providers\\AppServiceProvider->resolvePaymentDependency()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(682): App\\Providers\\AppServiceProvider->register()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(659): Illuminate\\Foundation\\ProviderRepository->load()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#10 {main}
+"} 
+[2024-10-28 09:50:51] production.ERROR: Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) {"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): App\\Exceptions\\Handler->render()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\\Foundation\\Http\\Kernel->renderException()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#16 {main}
+
+[previous exception] [object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [translator] does not exist. at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): App\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\\Foundation\\Http\\Kernel->renderException()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#26 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"translator\" does not exist at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877)
+[stacktrace]
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): App\\Exceptions\\Handler->render()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\\Foundation\\Http\\Kernel->renderException()
+#26 /home/multistream6/domains/dexcartgo.online/public_html/public/index.php(59): Illuminate\\Foundation\\Http\\Kernel->handle()
+#27 {main}
+"} 
+[2024-10-28 09:50:51] production.ERROR: Uncaught ReflectionException: Class "translator" does not exist in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\Foundation\Exceptions\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\Exceptions\Handler->render()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#26 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#27 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\Foundation\Application->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\Foundation\Exceptions\Handler->render()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\Exceptions\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#26 {main}
+
+Next Illuminate\View\ViewException: Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\Routing\ResponseFactory->view()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\Foundation\Exceptions\Handler->render()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\Exceptions\Handler->render()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#15 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#16 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"translator\" does not exist in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\\Exceptions\\Handler->render()
+#25 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#26 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#27 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [translator] does not exist. in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(119): Illuminate\\Foundation\\Application->make()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(835): app()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): trans()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/storage/framework/views/1ad615804eb529acf574cebc9eb988fd4fa5779e.php(1): __()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('...')
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#15 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#16 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#17 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#18 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#19 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#20 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#21 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#22 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#23 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\\Exceptions\\Handler->render()
+#24 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#25 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#26 {main}
+
+Next Illuminate\\View\\ViewException: Target class [translator] does not exist. (View: /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php) in /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(60): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#4 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#5 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#6 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#7 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\\Http\\Response->__construct()
+#8 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\\Routing\\ResponseFactory->make()
+#9 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(585): Illuminate\\Routing\\ResponseFactory->view()
+#10 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException()
+#11 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse()
+#12 /home/multistream6/domains/dexcartgo.online/public_html/app/Exceptions/Handler.php(64): Illuminate\\Foundation\\Exceptions\\Handler->render()
+#13 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): App\\Exceptions\\Handler->render()
+#14 /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->renderHttpResponse()
+#15 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#16 {main}
+  thrown at /home/multistream6/domains/dexcartgo.online/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:879)
+[stacktrace]
+#0 {main}
+"} 
+[2024-10-28 09:52:18] production.INFO: ............................. Message Sending .....................................  
+[2024-10-28 09:52:18] production.INFO: array (
+  'subject' => '[Order ID: #865554] your order has been placed successfully!',
+)  
+[2024-10-28 09:52:18] production.DEBUG: Message-ID: <4991816f2736b8c9fa36c515a6e9f34e@dexcartgo.online>
+Date: Mon, 28 Oct 2024 09:52:18 +0000
+Subject: [Order ID: #865554] your order has been placed successfully!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: wiechsele@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1730109138_5c3d7e85088fd618db2636f675fae1a8_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="Dexcartgo" title="Dexcartgo" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello Guest customer</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Thank you for choosing us! Your order [Order ID #865554] has been placed successfully. We'll let you know the status of the order.
+<br></p>
+<br>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/shop/tindu-gears" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">Visit the shop</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="panel" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 0 21px;">
+<tr>
+<td class="panel-content" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #EDEFF2; padding: 16px;">
+<table width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td class="panel-item" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 0;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left; margin-bottom: 0; padding-bottom: 0;">Shop name: Tindu Gears<br>
+Order ID: #865554<br>
+Payment method: Bank Wire Transfer<br>
+Payment status: PENDING<br>
+Order status:  <strong style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">WAITING FOR PAYMENT</strong><br>
+Shipping carrier: USP<br>
+<br>
+Shipping address: </p>
+<address style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">,<br>Nelson wiechsele,<br>316 Gray St  Townsend Delaware 19734,<br>Delaware,<br>California 19734,<br>United States of America,<br>Phone: +33 6 44 65 49 52,<br>
+</address>
+<br><br>
+Billing address: <address style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">,<br>Nelson wiechsele,<br>316 Gray St  Townsend Delaware 19734,<br>Delaware,<br>California 19734,<br>United States of America,<br>Phone: +33 6 44 65 49 52,<br>
+</address>
+<br>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+Thanks,<br>
+Tindu Gears, Dexcartgo
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 Dexcartgo. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello Guest customer
+
+Thank you for choosing us! Your order [Order ID #865554] has been placed successfully. We'll let you know the status of the order.
+
+Visit the shop: https://dexcartgo.online/shop/tindu-gears
+
+Shop name: Tindu Gears
+Order ID: #865554
+Payment method: Bank Wire Transfer
+Payment status: PENDING
+Order status:  WAITING FOR PAYMENT
+Shipping carrier: USP
+
+Shipping address: ,Nelson wiechsele,316 Gray St  Townsend Delaware 19734,Delaware,California 19734,United States of America,Phone: +33 6 44 65 49 52,
+Billing address: ,Nelson wiechsele,316 Gray St  Townsend Delaware 19734,Delaware,California 19734,United States of America,Phone: +33 6 44 65 49 52,
+
+Thanks,
+Tindu Gears, Dexcartgo
+
+© 2024 Dexcartgo. All rights reserved.
+  
+[2024-10-28 09:52:18] production.INFO: ........................... Message Sent Successfully .................................  
+[2024-10-28 09:52:18] production.INFO: ............................. Message Sending .....................................  
+[2024-10-28 09:52:18] production.INFO: array (
+  'subject' => 'New order [Order ID: #865554] has been placed on your shop!',
+)  
+[2024-10-28 09:52:18] production.DEBUG: Message-ID: <0aa1f089ad5ec83bfdef1ee8bacf6595@dexcartgo.online>
+Date: Mon, 28 Oct 2024 09:52:18 +0000
+Subject: New order [Order ID: #865554] has been placed on your shop!
+From: zCart Marketplace <no-reply@example.com>
+Reply-To: Reply <reply@example.com>
+To: shop7@demo.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1730109138_1a4180fe0afc90270083bbb61cb47b75_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; color: #74787E; height: 100%; hyphens: auto; line-height: 1.4; margin: 0; -moz-hyphens: auto; -ms-word-break: break-all; width: 100% !important; -webkit-hyphens: auto; -webkit-text-size-adjust: none; word-break: break-word;">
+<style>
+@media  only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media  only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #f5f8fa; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td class="header" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;">
+<a href="http://dexcartgo.online" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;">
+<img src="https://dexcartgo.online/images/placeholders/no_img.png" width="200px" class="brand-logo" alt="Dexcartgo" title="Dexcartgo" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;">
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; border-bottom: 1px solid #EDEFF2; border-top: 1px solid #EDEFF2; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #FFFFFF; margin: 0 auto; padding: 0; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Hello Tindu Gears</p>
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">A new order [Order ID #865554] has been placed. Please check the order detail and fulfill the order asap.
+<br></p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 30px auto; padding: 0; text-align: center; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table border="0" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<a href="https://dexcartgo.online/admin/order/order/16" class="button button-blue" target="_blank" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); color: #FFF; display: inline-block; text-decoration: none; -webkit-text-size-adjust: none; background-color: #3097D1; border-top: 10px solid #3097D1; border-right: 18px solid #3097D1; border-bottom: 10px solid #3097D1; border-left: 18px solid #3097D1;">Fulfill the order</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="panel" width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 0 21px;">
+<tr>
+<td class="panel-content" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; background-color: #EDEFF2; padding: 16px;">
+<table width="100%" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<tr>
+<td class="panel-item" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 0;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left; margin-bottom: 0; padding-bottom: 0;">Shop name: Tindu Gears<br>
+Order ID: #865554<br>
+Payment method: Bank Wire Transfer<br>
+Payment status: PENDING<br>
+Order status:  <strong style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">WAITING FOR PAYMENT</strong><br>
+Shipping carrier: USP<br>
+<br>
+Shipping address: </p>
+<address style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">,<br>Nelson wiechsele,<br>316 Gray St  Townsend Delaware 19734,<br>Delaware,<br>California 19734,<br>United States of America,<br>Phone: +33 6 44 65 49 52,<br>
+</address>
+<br><br>
+Billing address: <address style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">,<br>Nelson wiechsele,<br>316 Gray St  Townsend Delaware 19734,<br>Delaware,<br>California 19734,<br>United States of America,<br>Phone: +33 6 44 65 49 52,<br>
+</address>
+<br>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+Thanks,<br>
+Tindu Gears, Dexcartgo
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: center; width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;">
+<p style="font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; line-height: 1.5em; margin-top: 0; color: #AEAEAE; font-size: 12px; text-align: center;">© 2024 Dexcartgo. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[](http://dexcartgo.online)
+
+Hello Tindu Gears
+
+A new order [Order ID #865554] has been placed. Please check the order detail and fulfill the order asap.
+
+Fulfill the order: https://dexcartgo.online/admin/order/order/16
+
+Shop name: Tindu Gears
+Order ID: #865554
+Payment method: Bank Wire Transfer
+Payment status: PENDING
+Order status:  WAITING FOR PAYMENT
+Shipping carrier: USP
+
+Shipping address: ,Nelson wiechsele,316 Gray St  Townsend Delaware 19734,Delaware,California 19734,United States of America,Phone: +33 6 44 65 49 52,
+Billing address: ,Nelson wiechsele,316 Gray St  Townsend Delaware 19734,Delaware,California 19734,United States of America,Phone: +33 6 44 65 49 52,
+
+Thanks,
+Tindu Gears, Dexcartgo
+
+© 2024 Dexcartgo. All rights reserved.
+  
+[2024-10-28 09:52:18] production.INFO: ........................... Message Sent Successfully .................................  
